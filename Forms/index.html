@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form to apply</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="radio" id ="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label> <!--for == id -->
+        </div>
+        <div>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br>
+        </div>
+        <div>
+            <label for="comment">Enter Your comment:</label>
+            <br>
+            <textarea name="comments" rows="4" cols="50">
+        </textarea>
+        </div>
+        <div>
+            <select name="fruit">
+                <option value="mango">Mango</option>
+                <option value="banana">Banana</option>
+                <option value="apple">Apple</option>
+                <option value="grapes">Grapes</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
